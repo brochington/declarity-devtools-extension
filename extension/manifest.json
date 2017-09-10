@@ -1,0 +1,17 @@
+{
+  "name": "Declarity Devtools",
+  "description": "Devtools for sites that use the Declarity library",
+  "version": "0.0.1",
+  "minimum_chrome_version": "50.0",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2,
+  "web_accessible_resources": [ "main.html", "panel.html", "sidebar.html", "panel.js"],
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
